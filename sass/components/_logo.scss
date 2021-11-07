@@ -1,0 +1,20 @@
+.logo {
+  font-family: var(--logo-font);
+  display: flex;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color);
+
+  @media screen and (max-width: 1199px) {
+    justify-content: center;
+  }
+}
+
+.logo_color_dark {
+  color: var(--main-text-color);
+}
+
+.logo_color_light {
+  color: var(--tertiary-text-color);
+}

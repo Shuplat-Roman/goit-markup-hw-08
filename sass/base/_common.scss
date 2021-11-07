@@ -1,0 +1,19 @@
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.71;
+}

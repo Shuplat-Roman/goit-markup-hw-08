@@ -1,0 +1,29 @@
+.filter {
+  padding-top: var(--container-gap-mobile);
+  padding-bottom: var(--container-gap-mobile);
+  @media screen and (min-width: 1200px) {
+    padding-top: var(--container-gap);
+    padding-bottom: var(--container-gap);
+  }
+}
+
+.filter__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+  .margin {
+    @media screen and (max-width: 768px) {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.filter__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
